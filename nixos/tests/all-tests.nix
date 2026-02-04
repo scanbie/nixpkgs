@@ -591,6 +591,7 @@ in
   firewalld = runTest ./firewalld.nix;
   firezone = runTest ./firezone/firezone.nix;
   fish = runTest ./fish.nix;
+  flamenco = runTest ./flamenco.nix;
   flannel = runTestOn [ "x86_64-linux" ] ./flannel.nix;
   flaresolverr = runTest ./flaresolverr.nix;
   flood = runTest ./flood.nix;

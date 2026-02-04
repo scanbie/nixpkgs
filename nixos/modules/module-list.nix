@@ -850,6 +850,7 @@
   ./services/misc/evdevremapkeys.nix
   ./services/misc/evremap.nix
   ./services/misc/felix.nix
+  ./services/misc/flamenco.nix
   ./services/misc/flaresolverr.nix
   ./services/misc/forgejo.nix
   ./services/misc/freeswitch.nix
