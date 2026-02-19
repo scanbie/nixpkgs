@@ -145,7 +145,7 @@ in
 
       users = {
         users."${managerCfg.user}" = {
-          isSystemUser = true;
+          isNormalUser = true;
           inherit (managerCfg) group;
         };
         groups."${managerCfg.group}" = { };
@@ -173,7 +173,7 @@ in
     (lib.mkIf workerCfg.enable {
       users = {
         users."${workerCfg.user}" = {
-          isSystemUser = true;
+          isNormalUser = true;
           inherit (workerCfg) group;
         };
         groups."${workerCfg.group}" = { };
